@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu proprio servidor</p>
+<!--
+    <video src="midia/pexels-how-far-from-home-5592502 (1).mp4" width="300px" controls></video>
+-->
+    <video controls loop poster="imagens/pinguins2.png"><!--width="300px" height="500px"-->
+        <source src="midia/pexels-how-far-from-home-5592502 (1) (1).ogv" type="video/ogv">
+        <source src="midia/Pexels-How-Far-From-Home-5592502 (1)-1.m4v" type="video/mp4">
+        <source src="midia/pexels-how-far-from-home-5592502 (1).mp4" type="video/mp4">
+    </video>
+    <p>Se o seu navegador não capacidade parareproduzir <a href="midia/pexels-how-far-from-home-5592502 (1).mp4" download="pexels-how-far-from-home-5592502 (1).mp4" type="application/mp4">clique aqui para baixar o aequivo em MP4</a></p>
+
+    <h1>Inserindo vídeos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eF9Qoc6p_4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

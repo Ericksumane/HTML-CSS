@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir este site em vários dispositivos deiferentes ou simplesmente aumente e dimunua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/foto-g.png" alt="Imagens flexíveis">
+    </picture>
+<!--
+    <h1>Reproduzindo Áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midia/Shouse - Love Tonight (Chunda Munki Remix).mp3" controls autoplay>
+    </audio>
+   --> <!--Formatos para audio MP3, WAV e OGG-->
+<p></p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Shouse - Love Tonight (Chunda Munki Remix).mp3" type="audio/mpeg">
+        <source src="midia/Shouse - Love Tonight (Chunda Munki Remix).ogg" type="audio/ogg">
+        <source src="midia/Shouse - Love Tonight (Chunda Munki Remix).wav" type="audio/wav">
+    </audio>
+    <p>Infelizmente o seu navegador não consegue reproduzir o audio <a href="midia/Shouse - Love Tonight (Chunda Munki Remix).mp3">Clique aqui para baixar o arquivo MP3</a></p>
+</body>
+</html>
